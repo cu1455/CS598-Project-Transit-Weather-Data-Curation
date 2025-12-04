@@ -1,0 +1,54 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "name": "Waterloo Region Transit and Weather Integrated Dataset",
+    "description": "An hourly dataset combining Grand River Transit (GRT) service with historical weather data for the Waterloo Region to analyze the impact of weather on transit operations.",
+    "creator": {
+        "@type": "Person",
+        "name": "zhiweiw6",
+        "affiliation": {
+            "@type": "Organization",
+            "name": "UIUC"
+        }
+    },
+    "keywords": [
+        "Public Transit",
+        "Weather",
+        "GTFS",
+        "Waterloo",
+        "Kitchener",
+        "Data Curation",
+        "Time Series"
+    ],
+    "temporalCoverage": "2024-12-01/2024-12-22",
+    "spatialCoverage": {
+        "@type": "Place",
+        "name": "Waterloo Region, Ontario, Canada",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 43.4643,
+            "longitude": -80.5204
+        }
+    },
+    "license": "https://open.canada.ca/en/open-government-licence-canada",
+    "dateCreated": "2025-12-01",
+    "version": "1.0.0",
+    "isAccessibleForFree": true,
+    "distribution": {
+        "@type": "DataDownload",
+        "encodingFormat": "text/csv",
+        "contentUrl": "data/final/integrated_dataset.csv"
+    },
+    "provider": [
+        {
+            "@type": "Organization",
+            "name": "Region of Waterloo",
+            "url": "https://regionofwaterloo.ca/"
+        },
+        {
+            "@type": "Organization",
+            "name": "Environment and Climate Change Canada",
+            "url": "https://climate.weather.gc.ca/"
+        }
+    ]
+}
